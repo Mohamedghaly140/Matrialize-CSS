@@ -1,0 +1,67 @@
+header {
+  background-image: url('../images/man.jpg');
+  background-size: cover;
+  background-position: center center;
+  min-height: 800px;
+}
+
+.sidenav-logo {
+  color: #222;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section {
+  padding: 5vw 0;
+}
+
+.tabs .indicator {
+  background-color: #1a237e;
+}
+
+.tabs .tabs a:focus,
+.tabs .tabs a:active {
+  background: transparent;
+}
+
+.page-footer .row {
+  padding: 3vw 0;
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+}
+
+/* Start Scroll Up Style */
+.my-Scroll {
+  text-align: center;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  cursor: pointer;
+  z-index: 8;
+  display: none;
+  color: #FFF;
+  opacity: .6;
+}
+
+.my-Scroll #icon-up {
+  font-size: 25px;
+  color: #FFF;
+}
+
+.my-Scroll:hover {
+  opacity: 1;
+  transition: all .5s ease-in-out;
+  border-color: #222;
+  background-color: #1abc9c;
+}
+
+.my-Scroll #icon-up:hover {
+  color: #FFF;
+  transition: all .5s ease-in-out;
+}
+/* End Scroll Up Style */
